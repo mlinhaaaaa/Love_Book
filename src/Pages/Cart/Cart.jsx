@@ -35,7 +35,7 @@ function Cart() {
         if (userCart.length === 0 || userWishlist.length === 0) {
           (async function getUpdatedWishlistAndCart() {
             let updatedUserInfo = await axios.get(
-              "ttps://bookztron-server.vercel.app/api/user",
+              "https://bookztron-server.vercel.app/api/user",
               {
                 headers: {
                   "x-access-token": localStorage.getItem("token")
