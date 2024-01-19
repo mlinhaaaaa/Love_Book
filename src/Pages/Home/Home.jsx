@@ -49,7 +49,7 @@ function Home() {
               (async function getUpdatedWishlistAndCart()
               {
                   let updatedUserInfo = await axios.get(
-                  "ttps://bookztron-server.vercel.app/api/user",
+                  "https://bookztron-server.vercel.app/api/user",
                   {
                       headers:
                       {
